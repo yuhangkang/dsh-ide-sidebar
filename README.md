@@ -1,7 +1,7 @@
 # dsh-ide-sidebar
 
 <p align="center">
-  <img src="./.github/assets/banner-en.png" alt="dsh-ide-sidebar" width="100%">
+  <img src="https://raw.githubusercontent.com/yuhangkang/dsh-ide-sidebar/main/.github/assets/banner-en.png" alt="dsh-ide-sidebar" width="100%">
 </p>
 
 > IDE 式工作区切换侧边栏插件（Web / 浏览器 GUI 客户端 bundle）
