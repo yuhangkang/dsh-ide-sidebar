@@ -1,0 +1,7 @@
+# npm auth token (never commit)
+.npmrc
+
+# local runtime
+node_modules/
+*.log
+.DS_Store
