@@ -1,0 +1,4 @@
+# dsh-ide-sidebar bundle patch: mounts the sidebar plugin as a browser row.
+- insert:
+    - id: ide-sidebar
+      name: "dsh-ide-sidebar"
