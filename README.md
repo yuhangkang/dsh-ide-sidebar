@@ -95,12 +95,12 @@ dsh plugin --profile web add dsh-ide-sidebar
 | 图标 / 样式错乱 | 主题 tokens 与当前 DSH 主题不匹配 | 反馈 Issue 并提供 DSH 版本与主题名 |
 | BOM 出错导致加载失败 | 配置文件被写入了 BOM | 用无 BOM 编码重写 package.json，重启 |
 
-遇其它问题，请到仓库 [Issues](PENDING_REPO_URL) 反馈，附 DSH 版本、web 控制台报错与截图。
+遇其它问题，请到仓库 [Issues](https://github.com/yuhangkang/dsh-ide-sidebar/issues) 反馈，附 DSH 版本、web 控制台报错与截图。
 
 ## Development
 
 ```bash
-git clone <your-repo-url> && cd dsh-ide-sidebar
+git clone https://github.com/yuhangkang/dsh-ide-sidebar.git && cd dsh-ide-sidebar
 # 本插件为普通 JS bundle，无需 TypeScript 编译
 # 本地验证：参照「方式二」手动挂载到 profile 后重启 web
 ```
@@ -118,6 +118,7 @@ git clone <your-repo-url> && cd dsh-ide-sidebar
 - **Security**：安全问题请私信仓库维护者，避免在公开 Issue 中泄露凭据 / 私有信息。
 - 第三方插件会以 your own permissions 运行——源码自审，勿在存放敏感 key 的环境乱试陌生插件。
 
-<!-- PENDING -->
-- **GitHub 仓库链接**：`https://github.com/<you>/dsh-ide-sidebar`（占位，建仓后替换）
-- **topic**：请为仓库打上 `dsh-plugin`、`deepseek-harness`、`dsh` 三个 topic，以便在 [github.com/topics/dsh-plugin](https://github.com/topics/dsh-plugin) 被发现。
+---
+
+**仓库**：https://github.com/yuhangkang/dsh-ide-sidebar
+**Topics**：`dsh-plugin`、`deepseek-harness`、`dsh` —— 可在 [github.com/topics/dsh-plugin](https://github.com/topics/dsh-plugin) 被发现。
