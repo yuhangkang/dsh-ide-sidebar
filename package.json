@@ -1,0 +1,54 @@
+{
+  "name": "dsh-ide-sidebar",
+  "version": "0.1.0",
+  "description": "IDE-style workspace switcher sidebar for DSH (DeepSeek Harness): floating workspace dropdown, session filtering, done/pending status lights, workspace & session search, and workspace rename/delete/archive/add.",
+  "type": "module",
+  "main": "lib/index.mjs",
+  "types": "lib/index.d.mts",
+  "exports": {
+    ".": { "types": "./lib/index.d.mts", "default": "./lib/index.mjs" },
+    "./client": { "default": "./lib/client.js" },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.mjs",
+    "lib/index.d.mts",
+    "lib/client.js",
+    "cordis.patch.yml"
+  ],
+  "scripts": {
+    "build": "echo 'No build step required (plain JS bundle).'"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "platform": "web"
+    },
+    "compatibility": "web, dsh >= 0.1.0-rc"
+  },
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "sidebar",
+    "workspace",
+    "ide",
+    "plugin"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "dsh-ide-sidebar",
+    "url": "https://github.com/topics/dsh-plugin"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
