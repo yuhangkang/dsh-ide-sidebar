@@ -1,5 +1,9 @@
 # dsh-ide-sidebar
 
+<p align="center">
+  <img src="./.github/assets/dsh-ide-sidebar-banner.png" alt="dsh-ide-sidebar" width="100%">
+</p>
+
 > IDE 式工作区切换侧边栏插件（Web / 浏览器 GUI 客户端 bundle）
 > IDE-style workspace switcher sidebar for DSH (DeepSeek Harness).
 
